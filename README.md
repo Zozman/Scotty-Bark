@@ -19,6 +19,7 @@ Scottybark.com is build with Wordpress and utilizes the following (all were acqu
 	<li><a href="http://hypertext.net/projects/cfsetter/" target="_blank">CF Setter Plugin</a></li>
 	<li><a href="http://extendd.com/plugin/custom-login/" target="_blank">Custom Login 2.0 Plugin</a></li>
 	<li><a href="http://themergency.com/foobar-wordpress-plugin/" target="_blank">Foobar Notification Bar Plugin</a></li>
+	<li><a href="http://wordpress.org/plugins/github-shortcode/" target="_blank">Github Shortcode</a></li>
 	<li><a href="http://www.willmaster.com/software/WPplugins/insert-php-wordpress-plugin.php" target="_blank">Insert PHP Plugin</a></li>
 	<li><a href="http://wordpress.org/plugins/jetpack/" target="_blank">Jetpack by Wordpress.com Plugin</a></li>
 	<li><a href="http://wordpress.org/plugins/restrict-content/" target="_blank">Restrict Content Plugin</a></li>
