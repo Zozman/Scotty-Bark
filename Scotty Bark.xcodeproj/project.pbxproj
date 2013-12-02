@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0FC71A182C622D002B5CFA /* DividedAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0FC719182C622D002B5CFA /* DividedAddress.m */; };
+		BB14FF7E17FA08F800ECE6BD /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BB14FF7D17FA08F800ECE6BD /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BB14FF8717FA093600ECE6BD /* libGeoloqi-Debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB14FF8117FA093600ECE6BD /* libGeoloqi-Debug.a */; };
+		BB14FF8817FA093600ECE6BD /* libGeoloqi-Release.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB14FF8217FA093600ECE6BD /* libGeoloqi-Release.a */; };
+		BB1B3B7017F50500009BD5B3 /* Incident.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1B3B6F17F50500009BD5B3 /* Incident.m */; };
+		BB1B3B7217F5135A009BD5B3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1B3B7117F5135A009BD5B3 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BB1B3B7517F513A1009BD5B3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1B3B7417F513A1009BD5B3 /* SystemConfiguration.framework */; };
+		BB202FA617FF35CC008E8B5F /* greyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BB202F9C17FF35CC008E8B5F /* greyButton.png */; };
+		BB202FA717FF35CC008E8B5F /* greyButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB202F9D17FF35CC008E8B5F /* greyButton@2x.png */; };
+		BB202FA817FF35CC008E8B5F /* greyButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = BB202F9E17FF35CC008E8B5F /* greyButtonHighlight.png */; };
+		BB202FA917FF35CC008E8B5F /* greyButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB202F9F17FF35CC008E8B5F /* greyButtonHighlight@2x.png */; };
+		BB202FAA17FF35CC008E8B5F /* LocationBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = BB202FA017FF35CC008E8B5F /* LocationBlue.png */; };
+		BB202FAB17FF35CC008E8B5F /* LocationBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB202FA117FF35CC008E8B5F /* LocationBlue@2x.png */; };
+		BB202FAC17FF35CC008E8B5F /* LocationGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = BB202FA217FF35CC008E8B5F /* LocationGrey.png */; };
+		BB202FAD17FF35CC008E8B5F /* LocationGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB202FA317FF35CC008E8B5F /* LocationGrey@2x.png */; };
+		BB202FAE17FF35CC008E8B5F /* LocationHeadingBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = BB202FA417FF35CC008E8B5F /* LocationHeadingBlue.png */; };
+		BB202FAF17FF35CC008E8B5F /* LocationHeadingBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB202FA517FF35CC008E8B5F /* LocationHeadingBlue@2x.png */; };
+		BB3E645217F1F4F3002E89F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB3E645117F1F4F3002E89F4 /* Foundation.framework */; };
+		BB3E645417F1F4F3002E89F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB3E645317F1F4F3002E89F4 /* CoreGraphics.framework */; };
+		BB3E645617F1F4F3002E89F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB3E645517F1F4F3002E89F4 /* UIKit.framework */; };
+		BB3E645C17F1F4F3002E89F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB3E645A17F1F4F3002E89F4 /* InfoPlist.strings */; };
+		BB3E645E17F1F4F3002E89F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3E645D17F1F4F3002E89F4 /* main.m */; };
+		BB3E646217F1F4F3002E89F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3E646117F1F4F3002E89F4 /* AppDelegate.m */; };
+		BB3E646517F1F4F3002E89F4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3E646317F1F4F3002E89F4 /* Main_iPhone.storyboard */; };
+		BB3E646817F1F4F3002E89F4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3E646617F1F4F3002E89F4 /* Main_iPad.storyboard */; };
+		BB3E646B17F1F4F3002E89F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3E646A17F1F4F3002E89F4 /* ViewController.m */; };
+		BB3E646D17F1F4F3002E89F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB3E646C17F1F4F3002E89F4 /* Images.xcassets */; };
+		BB3E647417F1F4F3002E89F4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB3E647317F1F4F3002E89F4 /* XCTest.framework */; };
+		BB3E647517F1F4F3002E89F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB3E645117F1F4F3002E89F4 /* Foundation.framework */; };
+		BB3E647617F1F4F3002E89F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB3E645517F1F4F3002E89F4 /* UIKit.framework */; };
+		BB3E647E17F1F4F3002E89F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB3E647C17F1F4F3002E89F4 /* InfoPlist.strings */; };
+		BB3E648017F1F4F3002E89F4 /* PanicButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3E647F17F1F4F3002E89F4 /* PanicButtonTests.m */; };
+		BB3E648A17F1F6CA002E89F4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB3E648917F1F6CA002E89F4 /* CoreLocation.framework */; };
+		BB3E648D17F20E33002E89F4 /* PanicRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3E648C17F20E33002E89F4 /* PanicRequest.m */; };
+		BB3E648F17F21062002E89F4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB3E648E17F21062002E89F4 /* MapKit.framework */; };
+		BB3E649417F214F3002E89F4 /* Main_iPhone5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3E649317F214F3002E89F4 /* Main_iPhone5.storyboard */; };
+		BB3E649717F21A63002E89F4 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3E649617F21A63002E89F4 /* Utilities.m */; };
+		BB455DBB17F2715F00586862 /* Json.m in Sources */ = {isa = PBXBuildFile; fileRef = BB455DBA17F2715F00586862 /* Json.m */; };
+		BB455DC717F2847A00586862 /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = BB455DBE17F2847A00586862 /* Base64Transcoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BB455DC817F2847A00586862 /* HSK_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BB455DC017F2847A00586862 /* HSK_CFUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BB455DC917F2847A00586862 /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB455DC217F2847A00586862 /* NSData+Base64Additions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BB455DCA17F2847A00586862 /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB455DC417F2847A00586862 /* NSStream+SKPSMTPExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BB455DCB17F2847A00586862 /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = BB455DC617F2847A00586862 /* SKPSMTPMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BB455DCD17F2857400586862 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB455DCC17F2857400586862 /* CFNetwork.framework */; };
+		BB877DAB17F7FD340048A006 /* policeAlarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB877DAA17F7FD340048A006 /* policeAlarm.mp3 */; };
+		BB877DAF17F7FF610048A006 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB877DAE17F7FF610048A006 /* AVFoundation.framework */; };
+		BBBF21B81805E19E00A3CD90 /* CMU.gpx in Resources */ = {isa = PBXBuildFile; fileRef = BBBF21B71805E19E00A3CD90 /* CMU.gpx */; };
+		BBEC01EA17F8E1AE009397F6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBEC01E917F8E1AE009397F6 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB3E647717F1F4F3002E89F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB3E644617F1F4F3002E89F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB3E644D17F1F4F3002E89F4;
+			remoteInfo = PanicButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB0FC718182C622D002B5CFA /* DividedAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DividedAddress.h; sourceTree = "<group>"; };
+		BB0FC719182C622D002B5CFA /* DividedAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DividedAddress.m; sourceTree = "<group>"; };
+		BB14FF7C17FA08F800ECE6BD /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		BB14FF7D17FA08F800ECE6BD /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		BB14FF8017FA093600ECE6BD /* Geoloqi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geoloqi.h; sourceTree = "<group>"; };
+		BB14FF8117FA093600ECE6BD /* libGeoloqi-Debug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libGeoloqi-Debug.a"; sourceTree = "<group>"; };
+		BB14FF8217FA093600ECE6BD /* libGeoloqi-Release.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libGeoloqi-Release.a"; sourceTree = "<group>"; };
+		BB14FF8317FA093600ECE6BD /* LQError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQError.h; sourceTree = "<group>"; };
+		BB14FF8417FA093600ECE6BD /* LQSDKVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSDKVersion.h; sourceTree = "<group>"; };
+		BB14FF8517FA093600ECE6BD /* LQSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSession.h; sourceTree = "<group>"; };
+		BB14FF8617FA093600ECE6BD /* LQTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQTracker.h; sourceTree = "<group>"; };
+		BB1B3B6E17F50500009BD5B3 /* Incident.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Incident.h; sourceTree = "<group>"; };
+		BB1B3B6F17F50500009BD5B3 /* Incident.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Incident.m; sourceTree = "<group>"; };
+		BB1B3B7117F5135A009BD5B3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		BB1B3B7317F51363009BD5B3 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		BB1B3B7417F513A1009BD5B3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BB202F9C17FF35CC008E8B5F /* greyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButton.png; sourceTree = "<group>"; };
+		BB202F9D17FF35CC008E8B5F /* greyButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButton@2x.png"; sourceTree = "<group>"; };
+		BB202F9E17FF35CC008E8B5F /* greyButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButtonHighlight.png; sourceTree = "<group>"; };
+		BB202F9F17FF35CC008E8B5F /* greyButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		BB202FA017FF35CC008E8B5F /* LocationBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocationBlue.png; sourceTree = "<group>"; };
+		BB202FA117FF35CC008E8B5F /* LocationBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LocationBlue@2x.png"; sourceTree = "<group>"; };
+		BB202FA217FF35CC008E8B5F /* LocationGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocationGrey.png; sourceTree = "<group>"; };
+		BB202FA317FF35CC008E8B5F /* LocationGrey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LocationGrey@2x.png"; sourceTree = "<group>"; };
+		BB202FA417FF35CC008E8B5F /* LocationHeadingBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocationHeadingBlue.png; sourceTree = "<group>"; };
+		BB202FA517FF35CC008E8B5F /* LocationHeadingBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LocationHeadingBlue@2x.png"; sourceTree = "<group>"; };
+		BB3E644E17F1F4F3002E89F4 /* Scotty Bark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scotty Bark.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3E645117F1F4F3002E89F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB3E645317F1F4F3002E89F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB3E645517F1F4F3002E89F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB3E645917F1F4F3002E89F4 /* PanicButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PanicButton-Info.plist"; sourceTree = "<group>"; };
+		BB3E645B17F1F4F3002E89F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB3E645D17F1F4F3002E89F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB3E645F17F1F4F3002E89F4 /* Scotty Bark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scotty Bark-Prefix.pch"; sourceTree = "<group>"; };
+		BB3E646017F1F4F3002E89F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB3E646117F1F4F3002E89F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB3E646417F1F4F3002E89F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		BB3E646717F1F4F3002E89F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		BB3E646917F1F4F3002E89F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB3E646A17F1F4F3002E89F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB3E646C17F1F4F3002E89F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB3E647217F1F4F3002E89F4 /* Scotty BarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scotty BarkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3E647317F1F4F3002E89F4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BB3E647B17F1F4F3002E89F4 /* Scotty BarkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scotty BarkTests-Info.plist"; sourceTree = "<group>"; };
+		BB3E647D17F1F4F3002E89F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB3E647F17F1F4F3002E89F4 /* PanicButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanicButtonTests.m; sourceTree = "<group>"; };
+		BB3E648917F1F6CA002E89F4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BB3E648B17F20E33002E89F4 /* PanicRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanicRequest.h; sourceTree = "<group>"; };
+		BB3E648C17F20E33002E89F4 /* PanicRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanicRequest.m; sourceTree = "<group>"; };
+		BB3E648E17F21062002E89F4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BB3E649317F214F3002E89F4 /* Main_iPhone5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone5.storyboard; sourceTree = "<group>"; };
+		BB3E649517F21A63002E89F4 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		BB3E649617F21A63002E89F4 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		BB455DB917F2715F00586862 /* Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Json.h; sourceTree = "<group>"; };
+		BB455DBA17F2715F00586862 /* Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Json.m; sourceTree = "<group>"; };
+		BB455DBD17F2847A00586862 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		BB455DBE17F2847A00586862 /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Transcoder.m; sourceTree = "<group>"; };
+		BB455DBF17F2847A00586862 /* HSK_CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSK_CFUtilities.h; sourceTree = "<group>"; };
+		BB455DC017F2847A00586862 /* HSK_CFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSK_CFUtilities.m; sourceTree = "<group>"; };
+		BB455DC117F2847A00586862 /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
+		BB455DC217F2847A00586862 /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Additions.m"; sourceTree = "<group>"; };
+		BB455DC317F2847A00586862 /* NSStream+SKPSMTPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+SKPSMTPExtensions.h"; sourceTree = "<group>"; };
+		BB455DC417F2847A00586862 /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
+		BB455DC517F2847A00586862 /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
+		BB455DC617F2847A00586862 /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
+		BB455DCC17F2857400586862 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BB877DAA17F7FD340048A006 /* policeAlarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = policeAlarm.mp3; sourceTree = "<group>"; };
+		BB877DAC17F7FD780048A006 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BB877DAE17F7FF610048A006 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BBBF21B71805E19E00A3CD90 /* CMU.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CMU.gpx; sourceTree = "<group>"; };
+		BBEC01E917F8E1AE009397F6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB3E644B17F1F4F3002E89F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEC01EA17F8E1AE009397F6 /* libsqlite3.dylib in Frameworks */,
+				BB877DAF17F7FF610048A006 /* AVFoundation.framework in Frameworks */,
+				BB14FF8717FA093600ECE6BD /* libGeoloqi-Debug.a in Frameworks */,
+				BB1B3B7517F513A1009BD5B3 /* SystemConfiguration.framework in Frameworks */,
+				BB455DCD17F2857400586862 /* CFNetwork.framework in Frameworks */,
+				BB14FF8817FA093600ECE6BD /* libGeoloqi-Release.a in Frameworks */,
+				BB3E648F17F21062002E89F4 /* MapKit.framework in Frameworks */,
+				BB3E648A17F1F6CA002E89F4 /* CoreLocation.framework in Frameworks */,
+				BB3E645417F1F4F3002E89F4 /* CoreGraphics.framework in Frameworks */,
+				BB3E645617F1F4F3002E89F4 /* UIKit.framework in Frameworks */,
+				BB3E645217F1F4F3002E89F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3E646F17F1F4F3002E89F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3E647417F1F4F3002E89F4 /* XCTest.framework in Frameworks */,
+				BB3E647617F1F4F3002E89F4 /* UIKit.framework in Frameworks */,
+				BB3E647517F1F4F3002E89F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB14FF7B17FA08EC00ECE6BD /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				BB14FF7C17FA08F800ECE6BD /* JSONKit.h */,
+				BB14FF7D17FA08F800ECE6BD /* JSONKit.m */,
+			);
+			name = JSONKit;
+			sourceTree = "<group>";
+		};
+		BB14FF7F17FA093600ECE6BD /* GeoloqiSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BB14FF8017FA093600ECE6BD /* Geoloqi.h */,
+				BB14FF8117FA093600ECE6BD /* libGeoloqi-Debug.a */,
+				BB14FF8217FA093600ECE6BD /* libGeoloqi-Release.a */,
+				BB14FF8317FA093600ECE6BD /* LQError.h */,
+				BB14FF8417FA093600ECE6BD /* LQSDKVersion.h */,
+				BB14FF8517FA093600ECE6BD /* LQSession.h */,
+				BB14FF8617FA093600ECE6BD /* LQTracker.h */,
+			);
+			path = GeoloqiSDK;
+			sourceTree = "<group>";
+		};
+		BB1B3B7617F51608009BD5B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E648B17F20E33002E89F4 /* PanicRequest.h */,
+				BB3E648C17F20E33002E89F4 /* PanicRequest.m */,
+				BB1B3B6E17F50500009BD5B3 /* Incident.h */,
+				BB1B3B6F17F50500009BD5B3 /* Incident.m */,
+				BB0FC718182C622D002B5CFA /* DividedAddress.h */,
+				BB0FC719182C622D002B5CFA /* DividedAddress.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BB1B3B7717F51627009BD5B3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E649517F21A63002E89F4 /* Utilities.h */,
+				BB3E649617F21A63002E89F4 /* Utilities.m */,
+				BB455DB917F2715F00586862 /* Json.h */,
+				BB455DBA17F2715F00586862 /* Json.m */,
+				BB1B3B7317F51363009BD5B3 /* Reachability.h */,
+				BB1B3B7117F5135A009BD5B3 /* Reachability.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		BB1B3B7817F51646009BD5B3 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BB14FF7F17FA093600ECE6BD /* GeoloqiSDK */,
+				BB14FF7B17FA08EC00ECE6BD /* JSONKit */,
+				BB455DBC17F2847A00586862 /* SMTPLibrary */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		BB202F9A17FF35AE008E8B5F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BB202F9B17FF35BC008E8B5F /* Map Button */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		BB202F9B17FF35BC008E8B5F /* Map Button */ = {
+			isa = PBXGroup;
+			children = (
+				BB202F9C17FF35CC008E8B5F /* greyButton.png */,
+				BB202F9D17FF35CC008E8B5F /* greyButton@2x.png */,
+				BB202F9E17FF35CC008E8B5F /* greyButtonHighlight.png */,
+				BB202F9F17FF35CC008E8B5F /* greyButtonHighlight@2x.png */,
+				BB202FA017FF35CC008E8B5F /* LocationBlue.png */,
+				BB202FA117FF35CC008E8B5F /* LocationBlue@2x.png */,
+				BB202FA217FF35CC008E8B5F /* LocationGrey.png */,
+				BB202FA317FF35CC008E8B5F /* LocationGrey@2x.png */,
+				BB202FA417FF35CC008E8B5F /* LocationHeadingBlue.png */,
+				BB202FA517FF35CC008E8B5F /* LocationHeadingBlue@2x.png */,
+			);
+			name = "Map Button";
+			sourceTree = "<group>";
+		};
+		BB3E644517F1F4F3002E89F4 = {
+			isa = PBXGroup;
+			children = (
+				BBBF21B71805E19E00A3CD90 /* CMU.gpx */,
+				BB3E645717F1F4F3002E89F4 /* ScottyBark */,
+				BB3E647917F1F4F3002E89F4 /* ScottyBarkTests */,
+				BB3E645017F1F4F3002E89F4 /* Frameworks */,
+				BB3E644F17F1F4F3002E89F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB3E644F17F1F4F3002E89F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E644E17F1F4F3002E89F4 /* Scotty Bark.app */,
+				BB3E647217F1F4F3002E89F4 /* Scotty BarkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB3E645017F1F4F3002E89F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBEC01E917F8E1AE009397F6 /* libsqlite3.dylib */,
+				BB877DAE17F7FF610048A006 /* AVFoundation.framework */,
+				BB877DAC17F7FD780048A006 /* AudioToolbox.framework */,
+				BB1B3B7417F513A1009BD5B3 /* SystemConfiguration.framework */,
+				BB455DCC17F2857400586862 /* CFNetwork.framework */,
+				BB3E648E17F21062002E89F4 /* MapKit.framework */,
+				BB3E648917F1F6CA002E89F4 /* CoreLocation.framework */,
+				BB3E645117F1F4F3002E89F4 /* Foundation.framework */,
+				BB3E645317F1F4F3002E89F4 /* CoreGraphics.framework */,
+				BB3E645517F1F4F3002E89F4 /* UIKit.framework */,
+				BB3E647317F1F4F3002E89F4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB3E645717F1F4F3002E89F4 /* ScottyBark */ = {
+			isa = PBXGroup;
+			children = (
+				BBB722B517FE42030040D245 /* Storyboards */,
+				BB877DA917F7FD2C0048A006 /* Media */,
+				BB1B3B7817F51646009BD5B3 /* Libraries */,
+				BB1B3B7717F51627009BD5B3 /* Tools */,
+				BB1B3B7617F51608009BD5B3 /* Models */,
+				BB3E646017F1F4F3002E89F4 /* AppDelegate.h */,
+				BB3E646117F1F4F3002E89F4 /* AppDelegate.m */,
+				BB3E646917F1F4F3002E89F4 /* ViewController.h */,
+				BB3E646A17F1F4F3002E89F4 /* ViewController.m */,
+				BB3E646C17F1F4F3002E89F4 /* Images.xcassets */,
+				BB3E645817F1F4F3002E89F4 /* Supporting Files */,
+			);
+			path = ScottyBark;
+			sourceTree = "<group>";
+		};
+		BB3E645817F1F4F3002E89F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB202F9A17FF35AE008E8B5F /* Images */,
+				BB3E645917F1F4F3002E89F4 /* PanicButton-Info.plist */,
+				BB3E645A17F1F4F3002E89F4 /* InfoPlist.strings */,
+				BB3E645D17F1F4F3002E89F4 /* main.m */,
+				BB3E645F17F1F4F3002E89F4 /* Scotty Bark-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB3E647917F1F4F3002E89F4 /* ScottyBarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E647F17F1F4F3002E89F4 /* PanicButtonTests.m */,
+				BB3E647A17F1F4F3002E89F4 /* Supporting Files */,
+			);
+			path = ScottyBarkTests;
+			sourceTree = "<group>";
+		};
+		BB3E647A17F1F4F3002E89F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E647B17F1F4F3002E89F4 /* Scotty BarkTests-Info.plist */,
+				BB3E647C17F1F4F3002E89F4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB455DBC17F2847A00586862 /* SMTPLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				BB455DBD17F2847A00586862 /* Base64Transcoder.h */,
+				BB455DBE17F2847A00586862 /* Base64Transcoder.m */,
+				BB455DBF17F2847A00586862 /* HSK_CFUtilities.h */,
+				BB455DC017F2847A00586862 /* HSK_CFUtilities.m */,
+				BB455DC117F2847A00586862 /* NSData+Base64Additions.h */,
+				BB455DC217F2847A00586862 /* NSData+Base64Additions.m */,
+				BB455DC317F2847A00586862 /* NSStream+SKPSMTPExtensions.h */,
+				BB455DC417F2847A00586862 /* NSStream+SKPSMTPExtensions.m */,
+				BB455DC517F2847A00586862 /* SKPSMTPMessage.h */,
+				BB455DC617F2847A00586862 /* SKPSMTPMessage.m */,
+			);
+			path = SMTPLibrary;
+			sourceTree = "<group>";
+		};
+		BB877DA917F7FD2C0048A006 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				BB877DAA17F7FD340048A006 /* policeAlarm.mp3 */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		BBB722B517FE42030040D245 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E646317F1F4F3002E89F4 /* Main_iPhone.storyboard */,
+				BB3E649317F214F3002E89F4 /* Main_iPhone5.storyboard */,
+				BB3E646617F1F4F3002E89F4 /* Main_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB3E644D17F1F4F3002E89F4 /* Scotty Bark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB3E648317F1F4F3002E89F4 /* Build configuration list for PBXNativeTarget "Scotty Bark" */;
+			buildPhases = (
+				BB3E644A17F1F4F3002E89F4 /* Sources */,
+				BB3E644B17F1F4F3002E89F4 /* Frameworks */,
+				BB3E644C17F1F4F3002E89F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scotty Bark";
+			productName = PanicButton;
+			productReference = BB3E644E17F1F4F3002E89F4 /* Scotty Bark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB3E647117F1F4F3002E89F4 /* Scotty BarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB3E648617F1F4F3002E89F4 /* Build configuration list for PBXNativeTarget "Scotty BarkTests" */;
+			buildPhases = (
+				BB3E646E17F1F4F3002E89F4 /* Sources */,
+				BB3E646F17F1F4F3002E89F4 /* Frameworks */,
+				BB3E647017F1F4F3002E89F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB3E647817F1F4F3002E89F4 /* PBXTargetDependency */,
+			);
+			name = "Scotty BarkTests";
+			productName = PanicButtonTests;
+			productReference = BB3E647217F1F4F3002E89F4 /* Scotty BarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB3E644617F1F4F3002E89F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = CMU;
+				TargetAttributes = {
+					BB3E644D17F1F4F3002E89F4 = {
+						DevelopmentTeam = EAGTZY2K89;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					BB3E647117F1F4F3002E89F4 = {
+						TestTargetID = BB3E644D17F1F4F3002E89F4;
+					};
+				};
+			};
+			buildConfigurationList = BB3E644917F1F4F3002E89F4 /* Build configuration list for PBXProject "Scotty Bark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB3E644517F1F4F3002E89F4;
+			productRefGroup = BB3E644F17F1F4F3002E89F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB3E644D17F1F4F3002E89F4 /* Scotty Bark */,
+				BB3E647117F1F4F3002E89F4 /* Scotty BarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB3E644C17F1F4F3002E89F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3E646817F1F4F3002E89F4 /* Main_iPad.storyboard in Resources */,
+				BBBF21B81805E19E00A3CD90 /* CMU.gpx in Resources */,
+				BB202FAB17FF35CC008E8B5F /* LocationBlue@2x.png in Resources */,
+				BB202FA717FF35CC008E8B5F /* greyButton@2x.png in Resources */,
+				BB202FA817FF35CC008E8B5F /* greyButtonHighlight.png in Resources */,
+				BB202FAA17FF35CC008E8B5F /* LocationBlue.png in Resources */,
+				BB202FA617FF35CC008E8B5F /* greyButton.png in Resources */,
+				BB202FAE17FF35CC008E8B5F /* LocationHeadingBlue.png in Resources */,
+				BB3E646D17F1F4F3002E89F4 /* Images.xcassets in Resources */,
+				BB202FAF17FF35CC008E8B5F /* LocationHeadingBlue@2x.png in Resources */,
+				BB877DAB17F7FD340048A006 /* policeAlarm.mp3 in Resources */,
+				BB202FA917FF35CC008E8B5F /* greyButtonHighlight@2x.png in Resources */,
+				BB3E649417F214F3002E89F4 /* Main_iPhone5.storyboard in Resources */,
+				BB3E646517F1F4F3002E89F4 /* Main_iPhone.storyboard in Resources */,
+				BB3E645C17F1F4F3002E89F4 /* InfoPlist.strings in Resources */,
+				BB202FAD17FF35CC008E8B5F /* LocationGrey@2x.png in Resources */,
+				BB202FAC17FF35CC008E8B5F /* LocationGrey.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3E647017F1F4F3002E89F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3E647E17F1F4F3002E89F4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB3E644A17F1F4F3002E89F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3E646B17F1F4F3002E89F4 /* ViewController.m in Sources */,
+				BB3E648D17F20E33002E89F4 /* PanicRequest.m in Sources */,
+				BB1B3B7217F5135A009BD5B3 /* Reachability.m in Sources */,
+				BB3E646217F1F4F3002E89F4 /* AppDelegate.m in Sources */,
+				BB3E645E17F1F4F3002E89F4 /* main.m in Sources */,
+				BB3E649717F21A63002E89F4 /* Utilities.m in Sources */,
+				BB455DBB17F2715F00586862 /* Json.m in Sources */,
+				BB455DC917F2847A00586862 /* NSData+Base64Additions.m in Sources */,
+				BB455DC817F2847A00586862 /* HSK_CFUtilities.m in Sources */,
+				BB0FC71A182C622D002B5CFA /* DividedAddress.m in Sources */,
+				BB455DC717F2847A00586862 /* Base64Transcoder.m in Sources */,
+				BB455DCB17F2847A00586862 /* SKPSMTPMessage.m in Sources */,
+				BB455DCA17F2847A00586862 /* NSStream+SKPSMTPExtensions.m in Sources */,
+				BB14FF7E17FA08F800ECE6BD /* JSONKit.m in Sources */,
+				BB1B3B7017F50500009BD5B3 /* Incident.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3E646E17F1F4F3002E89F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3E648017F1F4F3002E89F4 /* PanicButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB3E647817F1F4F3002E89F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB3E644D17F1F4F3002E89F4 /* Scotty Bark */;
+			targetProxy = BB3E647717F1F4F3002E89F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB3E645A17F1F4F3002E89F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB3E645B17F1F4F3002E89F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB3E646317F1F4F3002E89F4 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB3E646417F1F4F3002E89F4 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BB3E646617F1F4F3002E89F4 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB3E646717F1F4F3002E89F4 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BB3E647C17F1F4F3002E89F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB3E647D17F1F4F3002E89F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB3E648117F1F4F3002E89F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB3E648217F1F4F3002E89F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB3E648417F1F4F3002E89F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PanicButton/Scotty Bark-Prefix.pch";
+				INFOPLIST_FILE = "PanicButton/PanicButton-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/zwlovoy/Desktop/PanicButton/PanicButton/GeoloqiSDK,
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Scotty Bark";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB3E648517F1F4F3002E89F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PanicButton/Scotty Bark-Prefix.pch";
+				INFOPLIST_FILE = "PanicButton/PanicButton-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/zwlovoy/Desktop/PanicButton/PanicButton/GeoloqiSDK,
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Scotty Bark";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BB3E648717F1F4F3002E89F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PanicButton.app/PanicButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PanicButton/PanicButton-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PanicButtonTests/Scotty BarkTests-Info.plist";
+				PRODUCT_NAME = "Scotty BarkTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BB3E648817F1F4F3002E89F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PanicButton.app/PanicButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PanicButton/PanicButton-Prefix.pch";
+				INFOPLIST_FILE = "PanicButtonTests/Scotty BarkTests-Info.plist";
+				PRODUCT_NAME = "Scotty BarkTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB3E644917F1F4F3002E89F4 /* Build configuration list for PBXProject "Scotty Bark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB3E648117F1F4F3002E89F4 /* Debug */,
+				BB3E648217F1F4F3002E89F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB3E648317F1F4F3002E89F4 /* Build configuration list for PBXNativeTarget "Scotty Bark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB3E648417F1F4F3002E89F4 /* Debug */,
+				BB3E648517F1F4F3002E89F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB3E648617F1F4F3002E89F4 /* Build configuration list for PBXNativeTarget "Scotty BarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB3E648717F1F4F3002E89F4 /* Debug */,
+				BB3E648817F1F4F3002E89F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB3E644617F1F4F3002E89F4 /* Project object */;
+}
