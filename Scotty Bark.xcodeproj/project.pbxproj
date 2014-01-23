@@ -98,10 +98,9 @@
 		BB3E645117F1F4F3002E89F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BB3E645317F1F4F3002E89F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BB3E645517F1F4F3002E89F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BB3E645917F1F4F3002E89F4 /* PanicButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PanicButton-Info.plist"; sourceTree = "<group>"; };
+		BB3E645917F1F4F3002E89F4 /* Scotty Bark-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scotty Bark-Info.plist"; sourceTree = "<group>"; };
 		BB3E645B17F1F4F3002E89F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BB3E645D17F1F4F3002E89F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BB3E645F17F1F4F3002E89F4 /* Scotty Bark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scotty Bark-Prefix.pch"; sourceTree = "<group>"; };
 		BB3E646017F1F4F3002E89F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BB3E646117F1F4F3002E89F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BB3E646417F1F4F3002E89F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
@@ -137,6 +136,7 @@
 		BB877DAA17F7FD340048A006 /* policeAlarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = policeAlarm.mp3; sourceTree = "<group>"; };
 		BB877DAC17F7FD780048A006 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		BB877DAE17F7FF610048A006 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BBB61BF0189196F8009959DB /* Scotty Bark-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Scotty Bark-Prefix.pch"; sourceTree = "<group>"; };
 		BBBF21B71805E19E00A3CD90 /* CMU.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CMU.gpx; sourceTree = "<group>"; };
 		BBEC01E917F8E1AE009397F6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -317,10 +317,10 @@
 			isa = PBXGroup;
 			children = (
 				BB202F9A17FF35AE008E8B5F /* Images */,
-				BB3E645917F1F4F3002E89F4 /* PanicButton-Info.plist */,
+				BB3E645917F1F4F3002E89F4 /* Scotty Bark-Info.plist */,
 				BB3E645A17F1F4F3002E89F4 /* InfoPlist.strings */,
 				BB3E645D17F1F4F3002E89F4 /* main.m */,
-				BB3E645F17F1F4F3002E89F4 /* Scotty Bark-Prefix.pch */,
+				BBB61BF0189196F8009959DB /* Scotty Bark-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -652,11 +652,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PanicButton/Scotty Bark-Prefix.pch";
-				INFOPLIST_FILE = "PanicButton/PanicButton-Info.plist";
+				GCC_PREFIX_HEADER = "ScottyBark/Scotty Bark-Prefix.pch";
+				INFOPLIST_FILE = "ScottyBark/Scotty Bark-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zwlovoy/Desktop/PanicButton/PanicButton/GeoloqiSDK,
+					ScottyBark/GeoloqiSDK,
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "Scotty Bark";
@@ -675,11 +675,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PanicButton/Scotty Bark-Prefix.pch";
-				INFOPLIST_FILE = "PanicButton/PanicButton-Info.plist";
+				GCC_PREFIX_HEADER = "ScottyBark/Scotty Bark-Prefix.pch";
+				INFOPLIST_FILE = "ScottyBark/Scotty Bark-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zwlovoy/Desktop/PanicButton/PanicButton/GeoloqiSDK,
+					ScottyBark/GeoloqiSDK,
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "Scotty Bark";

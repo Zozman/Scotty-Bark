@@ -132,7 +132,7 @@
     NSMutableString *subject = [@"Alert at " mutableCopy];
     [subject appendString:dateString];
     [message appendString:subject];
-    [message appendString:@"\",\"from_email\": \"cmuscottybark@gmail.com\",\"from_name\": \"Scotty Bark\",\"to\": [{\"email\":\"rapo756reni@post.wordpress.com\",\"name\": \"Dispatch\"}],\"auto_text\": null,\"auto_html\": null}}"];
+    [message appendString:@"\",\"from_email\": \"cmuscottybark@gmail.com\",\"from_name\": \"Scotty Bark\",\"to\": [{\"email\":\"muli496sevi@post.wordpress.com\",\"name\": \"Dispatch\"}],\"auto_text\": null,\"auto_html\": null}}"];
     return message;
 }
 
@@ -147,7 +147,7 @@
     NSMutableString *subject = [@"Alert at " mutableCopy];
     [subject appendString:dateString];
     [message appendString:subject];
-    [message appendString:@"\",\"from_email\": \"cmuscottybark@gmail.com\",\"from_name\": \"Scotty Bark\",\"to\": [{\"email\":\"rapo756reni@post.wordpress.com\",\"name\": \"Dispatch\"}],\"auto_text\": null,\"auto_html\": null}}"];
+    [message appendString:@"\",\"from_email\": \"cmuscottybark@gmail.com\",\"from_name\": \"Scotty Bark\",\"to\": [{\"email\":\"muli496sevi@post.wordpress.com\",\"name\": \"Dispatch\"}],\"auto_text\": null,\"auto_html\": null}}"];
     return message;
 }
 

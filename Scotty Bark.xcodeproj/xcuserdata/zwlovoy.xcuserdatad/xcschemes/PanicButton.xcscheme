@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BB3E644D17F1F4F3002E89F4"
-               BuildableName = "ScottyBark.app"
+               BuildableName = "Scotty Bark.app"
                BlueprintName = "Scotty Bark"
                ReferencedContainer = "container:Scotty Bark.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BB3E647117F1F4F3002E89F4"
-               BuildableName = "ScottyBarkTests.xctest"
+               BuildableName = "Scotty BarkTests.xctest"
                BlueprintName = "Scotty BarkTests"
                ReferencedContainer = "container:Scotty Bark.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB3E644D17F1F4F3002E89F4"
-            BuildableName = "ScottyBark.app"
+            BuildableName = "Scotty Bark.app"
             BlueprintName = "Scotty Bark"
             ReferencedContainer = "container:Scotty Bark.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB3E644D17F1F4F3002E89F4"
-            BuildableName = "ScottyBark.app"
+            BuildableName = "Scotty Bark.app"
             BlueprintName = "Scotty Bark"
             ReferencedContainer = "container:Scotty Bark.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB3E644D17F1F4F3002E89F4"
-            BuildableName = "ScottyBark.app"
+            BuildableName = "Scotty Bark.app"
             BlueprintName = "Scotty Bark"
             ReferencedContainer = "container:Scotty Bark.xcodeproj">
          </BuildableReference>
